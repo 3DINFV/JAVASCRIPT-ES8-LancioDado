@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lancio del dado</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="contenitoreDadi">
+            <img src="img/png1.png" alt="Faccia1">
+            <img src="img/png2.png" alt="Faccia2">
+            <img src="img/png3.png" alt="Faccia3">
+            <img src="img/png4.png" alt="Faccia4">
+            <img src="img/png5.png" alt="Faccia5">
+            <img src="img/png6.png" alt="Faccia6">
+        </div>
+        <div id="contenitoreDadi2">
+            <img src="img/png1.png" alt="Faccia1">
+            <img src="img/png2.png" alt="Faccia2">
+            <img src="img/png3.png" alt="Faccia3">
+            <img src="img/png4.png" alt="Faccia4">
+            <img src="img/png5.png" alt="Faccia5">
+            <img src="img/png6.png" alt="Faccia6">
+        </div>
+
+        <div>
+            <button id="btnLancia" onclick="lanciaDado()">Lancia il dado</button>
+        </div>
+        <div>
+            <img src="img/dadi.jpg" alt="Dadi" id="imgDado">
+        </div>
+        <div>
+            <h3>Frequenza della faccia numero 1: <span id="f1">0</span></h3>
+            <h3>Frequenza della faccia numero 2: <span id="f2">0</span></h3>
+            <h3>Frequenza della faccia numero 3: <span id="f3">0</span></h3>
+            <h3>Frequenza della faccia numero 4: <span id="f4">0</span></h3>
+            <h3>Frequenza della faccia numero 5: <span id="f5">0</span></h3>
+            <h3>Frequenza della faccia numero 6: <span id="f6">0</span></h3>
+        </div>
+        <div>
+            <button onclik="calcolaMigliore()">Calcola la faccia che ha un frequenza maggiore</button>
+        </div>
+        <h3 id="ris"></h3>
+    </div>
+</body>
+</html>

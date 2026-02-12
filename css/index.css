@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Verdana;
+    font-size: 16pt;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    border: 3px solid blue;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+img{
+    width: 150px;
+}
+
+#contenitoreDadi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap:15px;
+}
+
+#contenitoreDadi2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenitoreDadi2 img{
+    width:200px;
+
+}
+
+#imgDado{
+    width: 300px;
+}
+
